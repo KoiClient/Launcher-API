@@ -1,7 +1,7 @@
 function banUser() {
   document.getElementById('launchButton').style.backgroundColor = " rgba(252, 17, 0, 0.753)";
   document.getElementById('launchButton').innerHTML = "Banned";
-  alert("You are banned from Aero Client. Appeal at https://aeroclient.net/appeal");
+  alert("You are banned from Koi Client. Appeal at https://Koiclient.net/appeal");
   console.log("[ACP]: ACP_LAUNCH_BANNED");
 }
 
@@ -14,7 +14,7 @@ function startupChecks() {
 function notWhitelisted() {
   document.getElementById('launchButton').style.backgroundColor = " rgba(252, 17, 0, 0.753)";
   document.getElementById('launchButton').innerHTML = "Unauthorized";
-  alert("You are not authorized to launch Aero Client at this time.");
+  alert("You are not authorized to launch Koi Client at this time.");
   console.log("[ACP]: Not whitelisted!");
 }
 
@@ -24,10 +24,10 @@ function checkBranch2() {
   var branch3 = document.querySelector('.branch-button3').innerHTML
 
  if(branch2 == "✔️Beta") {
-    console.log("[Aero Client] Checked Beta Branch");
+    console.log("[Koi Client] Checked Beta Branch");
     launchClient2();
   } else if(branch3 == "✔️Dev") {
-    console.log("[Aero Client] Checked Dev Branch");
+    console.log("[Koi Client] Checked Dev Branch");
     launchClient3();
   }
 }

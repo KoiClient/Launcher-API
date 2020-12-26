@@ -1,27 +1,27 @@
 .blogauthor::after {
-    content: "Posted by ArcaneCiCi";
+    content: "Posted by Valoriom";
   }
 
 .blog-author-skin {
-  background-image: url('https://minotar.net/helm/58025126-17c2-4fe3-bbc9-81519341f7d6/32.png');
+  background-image: url('https://minotar.net/helm/a87414f4a92f4f24ad3cb8ae3269951c/32.png');
 }
 
 .blogtitle::after {
-    content: "The Winter Update";
+    content: "Update";
 }
 
 .blogcontent::after {
     font-weight: bold;
-    content: "Today we are proud to announce that we are doing our very first Winter Update! This update will last all winter and will come in phases, Phase 1 will consist of updating 1.7, and the new launcher. Phase 2 will consist of our 1.8 public beta/release, and Phase 3 will consist of our 1.16 public beta/release. We have a lot more features and mods coming to Aero Client, as well as a brand new look! We hope to start this update at the very latest January, however it may come as early as Christmas Eve or Day. Stay Tuned. 👀❄️";
+    content: "New Launcher. Stay Tuned. 👀❄️";
 }
 
 .versiontext::after {
-    content: "Powered by CiCi Games • 2.2.1 [LauncherAPI-1.1]"
+    content: "Powered by Flugs Games • 2.2.1 [LauncherAPI-1.1]"
 }
 
 
 /* Information Tab */
 
 .aboutus::after {
-    content: "Aero Client is a Free Modpack and Client-Side AntiCheat built for Minecraft 1.7.10!";
+    content: "Koi Client is a Free Modpack and Client-Side AntiCheat built for Minecraft 1.7.10!";
 }
